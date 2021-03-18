@@ -18,7 +18,7 @@
 <body>
 
 <div class="container">
-	<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+	<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
 	<center>
 		<h1 class="header">	
 			Kwitter	
@@ -26,14 +26,15 @@
 				<img src="m2.png">
 			</sup>
 		</h1>
-		<div style="text-align: left;margin-bottom: 70px;"> </div>
+		<div id="output"style="text-align: left;margin-bottom: 70px;"> </div>
 	</center>
 </div>
 
 <center>
 	<div class="input_div_message_page">
 		<label>Send:</label>
-		<button class="btn btn-success">Send</button>
+		<input type="text" class="form-control" id="msg" placeholder="Message">
+		<button class="btn btn-success" onclick="send()">Send</button>
 	</div>
 </center>
 
