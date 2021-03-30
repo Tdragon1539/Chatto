@@ -6,7 +6,7 @@ html, body
 
 body
 {
-background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+background-image: linear-gradient(to right top, #33f198, #25d961, #18c18e, #0aaa5a, #006494);
 }
 
 .header
@@ -35,7 +35,7 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 
 .room_name
 {
-	cursor: pointer;
+	cursor: context-menu;
 	font-size: 20px;
 }
 
